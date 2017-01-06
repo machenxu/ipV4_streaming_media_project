@@ -24,7 +24,7 @@ int main(int argc,char **argv)
     fp = fopen(argv[1],"r");
     if(fp == NULL)
     {
-        // 3.根据错误代号在标准错误上打印出可读的错误信息
+        // 根据错误代号在标准错误上打印出可读的错误信息
         fprintf(stderr,"fopen() : %s\n",strerror(errno));
 
         exit(1);
