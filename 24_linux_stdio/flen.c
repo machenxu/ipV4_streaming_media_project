@@ -5,7 +5,7 @@
 
 
 // 程序功能 :
-// 使用fseek();得到文件大小
+// 使用fseek,ftell得到文件大小
 // 假设文件中有效字符个数不超过long可以表示的范围
 
 int main(int argc,char **argv)
